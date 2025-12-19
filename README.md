@@ -1,4 +1,4 @@
-# ❤️ Heart Disease Prediction Using Machine Learning
+# Heart Disease Prediction Using Machine Learning
 
 ## Project Overview
 
@@ -144,13 +144,11 @@ streamlit run app.py
 ---
 
 ## Team Members
-
-- @mirza1272  
-- @AdanAli951 
-- @khizardev123 
-- @moiz-mansoori 
-- @MuhammadMusabYaqoob 
----
+- [@mirza1272](https://github.com/mirza1272)
+- [@AdanAli951](https://github.com/AdanAli951)
+- [@khizardev123](https://github.com/khizardev123)
+- [@moiz-mansoori](https://github.com/moiz-mansoori)
+- [@MuhammadMusabYaqoob](https://github.com/MuhammadMusabYaqoob)
 
 ## Conclusion
 
