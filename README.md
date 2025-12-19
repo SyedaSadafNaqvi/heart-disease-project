@@ -97,6 +97,7 @@ The trained model (`svm_model.joblib`) and scaler (`scaler.joblib`) are loaded d
 
 ## Project Structure
 
+```
 heart-disease-project/
 │
 ├── heart_diseases_prediction.ipynb
@@ -104,15 +105,17 @@ heart-disease-project/
 ├── README.md
 │
 ├── app/
-│ ├── app.py
-│ ├── svm_model.joblib
-│ ├── scaler.joblib
-│ └── requirements.txt
-
+│   ├── app.py
+│   ├── svm_model.joblib
+│   ├── scaler.joblib
+│   └── requirements.txt
+```
 
 ---
 
 ## Requirements
+
+```
 pandas
 numpy
 matplotlib
@@ -120,7 +123,7 @@ seaborn
 scikit-learn
 streamlit
 joblib
-
+```
 
 ---
 
@@ -129,17 +132,26 @@ joblib
 ### Run the Jupyter Notebook
 ```bash
 jupyter notebook heart_diseases_prediction.ipynb
+```
+
+### Run the Web Application
+```bash
 cd app
 pip install -r requirements.txt
 streamlit run app.py
-
-Team Members
-@mirza1272 
-@AdanAli951 
-@khizardev123 
-@moiz-mansoori
-@MuhammadMusabYaqoob
+```
 
 ---
-##Conclusion
+
+## Team Members
+
+- @mirza1272  
+- @AdanAli951 
+- @khizardev123 
+- @moiz-mansoori 
+- @MuhammadMusabYaqoob 
+---
+
+## Conclusion
+
 This project demonstrates a complete end-to-end machine learning workflow for healthcare prediction, from data preprocessing and model evaluation to deployment via a user-friendly web application. The system highlights the importance of model comparison, overfitting control, and practical deployment in medical decision-support systems.
